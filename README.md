@@ -16,7 +16,6 @@ This project is designed as a portfolio project for a Software Engineer transiti
 - A Streamlit web interface
 - Basic unit tests
 
-> **Important:** The dataset is synthetic. It is generated locally so the project is fully reproducible without downloading confidential or real financial data. The project should be described on a resume as a *synthetic fintech fraud detection project*, not as a production fraud model.
 
 ## Project Structure
 
@@ -196,13 +195,5 @@ Therefore, this project evaluates:
 - PR-AUC — performance across classification thresholds
 - ROC-AUC — overall ranking performance
 
-## Resume Version
 
-Once you have run the project and verified the generated metrics, a resume entry can be written as:
 
-**FinTech Transaction Fraud Detection | Python, Pandas, Scikit-learn, FastAPI, Streamlit**
-- Built an end-to-end supervised machine learning pipeline to classify potentially fraudulent card transactions using transaction, device, account, and behavioral features.
-- Compared Logistic Regression and Random Forest models using precision, recall, F1, ROC-AUC and PR-AUC for imbalanced classification.
-- Developed a reusable preprocessing/model pipeline and exposed predictions through a FastAPI service and Streamlit interface.
-
-Only add numerical performance results to your resume after running the project and verifying them in `reports/metrics.json`.
